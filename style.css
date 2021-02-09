@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+.main-block {
+    border-radius: 4px;
+    background-color: white;
+    padding: 10px 30px 30px 30px;
+    -webkit-box-shadow: 2px 7px 25px -3px rgba(0,0,0,0.5);
+    box-shadow: 2px 7px 25px -3px rgba(0,0,0,0.5);
+}
+
+.email-input-field {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 15px 40px;
+    border: 2px solid #eb5197;
+    outline: none;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-error {
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.error-icon {
+    margin-right: 5px;
+    color: #f1ce0b;
+}
+
+.submit-button {
+    cursor: pointer;
+    background-color: #eb5197;
+    border: 2px solid white;;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+
+    margin-top: 5px;
+    padding: 15px 25px;
+}
+
+.submit-button:hover {
+    background-color: white;
+    border: 2px solid #eb5197;
+    color: #eb5197;
+}
+
+.link-to-emails {
+    padding: 5px;
+    align-self: flex-end;
+    text-decoration: none;
+}
+
+/* success.php */
+
+.back-icon {
+    margin-right: 5px;
+}
+
+.success-icon {
+    color: green;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+/* emails.php */
+
+thead, tbody {
+    display: block;
+}
+th {
+    padding: 0 10px;
+}
+tbody {
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+td {
+    padding: 10px;
+    text-align: justify;
+}
